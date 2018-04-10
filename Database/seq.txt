@@ -1,0 +1,14 @@
+CREATE DATABASE "CRM"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE SEQUENCE public.client_seq
+;
+
+CREATE SEQUENCE public.product_seq
+;
+
+CREATE SEQUENCE public.deal_seq
+;
