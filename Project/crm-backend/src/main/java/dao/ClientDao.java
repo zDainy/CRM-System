@@ -2,12 +2,10 @@ package dao;
 
 import common.Client;
 import common.DBService;
-import common.Global;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class ClientDao {
 
@@ -15,7 +13,7 @@ public class ClientDao {
         try {
             PreparedStatement statement = DBService.getConnection().prepareStatement(
                     "INSERT INTO client (fio, address, phone, passport)" +
-                            " VALUES (?, ?, ?, ?, ?);"
+                            " VALUES (?, ?, ?, ?);"
             );
             statement.setString(1, fio);
             statement.setString(2, address);

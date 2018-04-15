@@ -4,7 +4,7 @@ CREATE TABLE public.client
     fio character varying NOT NULL,
     address character varying NOT NULL,
     phone character varying,
-    passport character NOT NULL,
+    passport character varying NOT NULL,
     PRIMARY KEY (id)
 )
 

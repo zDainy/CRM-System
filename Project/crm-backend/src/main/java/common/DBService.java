@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DBService {
     // database
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/CRMGlobal";
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/CRM";
     private static final String USER = "postgres";
     private static final String PASS = "1111";
 
